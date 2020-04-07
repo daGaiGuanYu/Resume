@@ -1,0 +1,18 @@
+$fontSize = 16px // 0 号字
+$fontSizeSM = 12px // -1 号字
+$fontSizeLG = 26px // 1 号字
+
+fontSize($which)
+  if $which == lg
+    font-size $fontSizeLG
+  else if $which == sm
+    font-size $fontSizeSM
+  else
+    font-size $fontSize
+
+clearFloat()
+  &::after
+    content: ''
+    display: block
+    clear: both
+    

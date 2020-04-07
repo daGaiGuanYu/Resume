@@ -1,0 +1,22 @@
+{
+  "name": "gy-resume",
+  "description": "韦现法的个人简历",
+  "scripts": {
+    "dev": "parcel src/entry/index.pug",
+    "build": "parcel build src/index.pug --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daGaiGuanYu/Resume.git"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
