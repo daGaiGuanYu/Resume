@@ -4,18 +4,25 @@
       .txt
         h1.name 韦现法
         .detail
-          div 26岁
-          div 男
-          div 本科
-          div 18年毕业
+          .item 26岁
+          .item 男
+          .item 本科
+          .item 18年毕业
         .detail
-          div vue
-          div 原生微信小程序
-          div 原生 node
+          .item vue
+          .item 原生微信小程序
+          .item 原生 node
         .detail
-          div 南京、上海、杭州
-          div 17621968703
-          div
+          .item
+            img(src="https://gitee.com/dggy/picpic/raw/master/position.png")
+            span 上海
+          .item
+            img(src="https://gitee.com/dggy/picpic/raw/master/wx.png")
+            span 17621968703
+          .item
+            img(src="https://gitee.com/dggy/picpic/raw/master/money.png")
+            span 12k
+          .item
             a(href="https://blog.csdn.net/csdn372301467") 博客
       img.photo(:src="photo")
 
@@ -78,10 +85,17 @@ export default {
     .detail
       margin: 20px 0
       clearFloat()
-      div
+      .item
         line-height: 1
         float: left
-      div + div::before
+        display: flex
+        align-items: center
+        img, span 
+          display: block
+        img
+          width: 16px
+          margin-right: 4px
+      .item + .item::before
         float: left
         content: ''
         display: block
