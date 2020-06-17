@@ -8953,7 +8953,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-//
 var _default = {
   data: function data() {
     return {
@@ -9071,14 +9070,13 @@ var staticRenderFns = [
         _c("li", [_vm._v("原生微信小程序开发")]),
         _c("li", [
           _c("span", [
-            _vm._v("偏爱 node 原生 api 开发服务端程序，有自己开发的工具库 ")
+            _vm._v("熟悉 node 原生 api 开发服务端程序，有自己写的工具库")
           ]),
           _c(
             "a",
-            { attrs: { href: "https://github.com/daGaiGuanYu/chopstick" } },
-            [_vm._v("Chopstick")]
-          ),
-          _c("span", [_vm._v("（文档未完善）")])
+            { attrs: { href: "https://www.yuque.com/guanyu-ftnpp/ggaspz" } },
+            [_vm._v("筷子")]
+          )
         ]),
         _c("li", [_vm._v("熟练操作 docker、nginx")]),
         _c("li", [_vm._v("有 Javaweb 开发经验（ SSM\\SpringBoot ）")])
@@ -9243,7 +9241,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52955" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50182" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

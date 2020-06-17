@@ -43,9 +43,8 @@
         li 前端流行的工具库（ echarts\axios\jQuery\... ）
         li 原生微信小程序开发
         li
-          span 偏爱 node 原生 api 开发服务端程序，有自己开发的工具库&nbsp;
-          a(href="https://github.com/daGaiGuanYu/chopstick") Chopstick
-          span （文档未完善）
+          span 熟悉 node 原生 api 开发服务端程序，有自己写的工具库
+          a(href="https://www.yuque.com/guanyu-ftnpp/ggaspz") 筷子
         li 熟练操作 docker、nginx
         li 有 Javaweb 开发经验（ SSM\SpringBoot ）
     
@@ -105,8 +104,8 @@ export default {
         margin: 0 30px
   .photo
     float left
-    width 140px
-    border-radius: 70px
+    width 160px
+    border-radius: 2px
 
 .developer
   padding: 36px 0

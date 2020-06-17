@@ -1,6 +1,8 @@
 .resume-content {
   padding: 50px;
   box-shadow: 0 0 10px #ccc;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 .person {
   border-bottom: 1px solid #ddd;
@@ -53,8 +55,8 @@
 }
 .person .photo {
   float: left;
-  width: 140px;
-  border-radius: 70px;
+  width: 160px;
+  border-radius: 2px;
 }
 .developer {
   padding: 36px 0;
