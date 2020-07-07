@@ -31,7 +31,6 @@
       ul
         li 专注网站建设，熟悉前、后端开发及运维工作
         li 熟悉微信小程序原生开发
-        li 英文良好
         li 好(hǎo)说话
     .developer
       .title 技能树
@@ -47,6 +46,7 @@
           a(href="https://www.yuque.com/guanyu-ftnpp/ggaspz") 筷子
         li 熟练操作 docker、nginx
         li 有 Javaweb 开发经验（ SSM\SpringBoot ）
+        li 英语 CET6
     
     .project
 
