@@ -21,7 +21,7 @@
             span 17621968703
           .item
             img(src="https://gitee.com/dggy/picpic/raw/master/money.png")
-            span 12k
+            span 15k
           .item
             a(href="https://blog.csdn.net/csdn372301467") 博客
       img.photo(:src="photo")
@@ -50,7 +50,7 @@
     
     .project
 
-    a.source(href="https://github.com/daGaiGuanYu/Resume") 获取简历源码请点这里
+    a.source(href="https://github.com/daGaiGuanYu/Resume") 简历源码点这里
 </template>
 
 <script>
