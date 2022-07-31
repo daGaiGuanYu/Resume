@@ -1,0 +1,119 @@
+$mobilePagePadding = 1rem
+$color1 = #53cac3
+
+mobile()
+  @media (max-width: 600px)
+    {block}
+borderLeft($color = $color1)
+  border-left: .25rem solid $color
+  padding: 0 .8rem
+  +mobile()
+    padding: 0 ($mobilePagePadding / 1.6)
+
+lineHeight1()
+  line-height: 1.8
+lineHeight2()
+  line-height: 2.2
+
+marginH($size)
+  margin-left: $size
+  margin-right: $size
+marginV($size)
+  margin-top: $size
+  margin-bottom: $size
+
+/* reset */
+body, div
+  box-sizing: border-box
+
+/* common element */
+html
+  background: rgba(0,0,0, .03)
+  color: #222
+  line-height: 1
+  min-height: 100%
+body
+  margin: 0 auto
+  min-height: 100%
+  @media screen // 打印页面时，宽度 100%
+    max-width: 800px
+  
+  background: rgba(255, 255, 255, .93)
+  box-shadow: 0 0 10px rgba(0,0,0, .1)
+  padding: 2rem 3rem
+  +mobile()
+    padding: .5rem 0
+p
+  margin: .6rem 0
+a
+  color: $color1
+  text-decoration: none
+
+/* bussiness */
+h4
+  margin: 1rem 0
+  font-size: 1rem
+  color: #888
+  borderLeft()
+h5
+  font-size: 1.2rem
+  color: #555
+  marginV(1rem)
+  padding: 0
+  span
+    font-size: 1rem
+    font-weight: normal
+    &::before
+      content: '（'
+    &::after
+      content: '）'
+.items
+  lineHeight2()
+  span
+    padding: 0 2rem
+    +mobile()
+      padding: 0 1rem
+  :not(:last-child)
+    border-right: 1px solid rgba(0,0,0, .3)
+
+#page > section
+  & > *:not(h4, p.comment)
+    marginH(1rem)
+  ul
+    marginV(.6rem)
+    lineHeight2()
+    padding: 0 1.2rem
+    +mobile()
+      padding: 0
+    li
+      padding: 0
+      list-style: circle
+      +mobile()
+        list-style: none
+        &::before
+          content: '# '
+          opacity: .3
+  & > ul li
+    marginH(-.2rem)
+  p
+    lineHeight1()
+  p.comment
+    borderLeft(rgba(0, 0, 0, .16))
+    opacity: .8
+    font-size: .9rem
+
+/* special */
+.overview
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: 1.6rem
+  h4
+    align-self: flex-start
+  img
+    width: 6rem
+    margin: 1rem 0
+  .name
+    font-size: 1.2rem
+    font-weight: normal
+    margin: .6rem 0 .8rem
