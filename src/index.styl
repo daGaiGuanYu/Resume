@@ -13,7 +13,7 @@ borderLeft($color = $color1)
 lineHeight1()
   line-height: 1.8
 lineHeight2()
-  line-height: 2.2
+  line-height: 2
 
 marginH($size)
   margin-left: $size
@@ -44,21 +44,21 @@ body
   +mobile()
     padding: .5rem 0
 p
-  margin: .6rem 0
+  marginV(1rem)
 a
   color: $color1
   text-decoration: none
 
 /* bussiness */
 h4
-  margin: 1rem 0
+  margin: 1rem (- $mobilePagePadding)
   font-size: 1rem
   color: #888
   borderLeft()
-h5
+h5 // 项目、公司名
   font-size: 1.2rem
   color: #555
-  marginV(1rem)
+  margin: 1rem 0
   padding: 0
   span
     font-size: 1rem
@@ -69,6 +69,7 @@ h5
       content: '）'
 .items
   lineHeight2()
+  text-align: center
   span
     padding: 0 2rem
     +mobile()
@@ -76,9 +77,14 @@ h5
   :not(:last-child)
     border-right: 1px solid rgba(0,0,0, .3)
 
+p.comment
+  marginH(- $mobilePagePadding)
+  borderLeft(rgba(0, 0, 0, .16))
+  opacity: .8
+  font-size: .9rem
+
 #page > section
-  & > *:not(h4, p.comment)
-    marginH(1rem)
+  padding: 0 1rem
   ul
     marginV(.6rem)
     lineHeight2()
@@ -97,10 +103,6 @@ h5
     marginH(-.2rem)
   p
     lineHeight1()
-  p.comment
-    borderLeft(rgba(0, 0, 0, .16))
-    opacity: .8
-    font-size: .9rem
 
 /* special */
 .overview
