@@ -79,7 +79,7 @@
       <p><b>特色</b> 在于使用了极少的依赖。除了必要的各主流数据库的驱动外，使用 Knex.js 统一各数据库的大多数操作、Vue.js 绘制 UI（仅有 Vue.js 的核心库）。引入其他库，将使插件体积极具膨胀，因此绝大多数操作均使用最原始的 API，以保持超轻量级和高运行效率。</p>
       <p><b>难点一</b> 在于统一各主流数据库的操作，目前支持 MySQL、PostgresSQL、MSSQL、Sqlite3 以及兼容以上“标准”的数据库。比如 MariaDB、TiDB、stoneDB 等均属于 MySQL 系，可以使用 MySQL 驱动连接；CockroachDB 等可以使用 PostgreSQL 的驱动；Azure Data 等可以使用 MSSQL 驱动。（OracleDB 的支持正在开发中。）</p>
       <p>不同的数据库虽然都支持 SQL 语句，但各家 SQL 语法不一致，可以通过 Knex.js 磨平，这一点非常简单。而除表数据的增删改查以外，其他操作几乎全不一样，需要挨个适配。比如 PostgreSQL 和 MSSQL 的架构是：Server -> Database -> Schema -> Table，而 MySQL 则合并了 Database 与 Schema，Sqlite 则合并了 Server 与 Database 与 Schema（一个 Sqlite3 Server，仅能管理一个 Database、一个 Schema）。</p>
-      <p><b>难点二</b> vscode 没有相应成熟的开发框架，在架构方面是从零开始。皮皮仔的最底层是 Model 层，目前用于管理连接数据和版本信息（以便将来做数据迁移）。上层是 Service 层，实现各业务。再上层分别是 Command（接收用户命令）、Treeview（数据库浏览器）、Webview（主要操作界面）。</p>
+      <p><b>难点二</b> vscode 没有相应成熟的开发框架，在架构方面是从零开始。皮皮仔的最底层是 Model 层，目前用于管理连接数据和版本信息（以便将来做数据迁移）。上层是 Service 层，实现各业务。最上层（并列）分别是 Command（接收用户命令）、Treeview（数据库浏览器）、Webview（主要操作界面），用于接收用户操作。</p>
       <ul>
         <li><a href="https://github.com/ppz-pro/ppz.vscode">项目地址</a></li>
         <li><a href="https://gitee.com/ppz-pro/ppz.vscode/wikis/pages">一些截图</a></li>
