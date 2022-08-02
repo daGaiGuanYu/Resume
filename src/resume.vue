@@ -40,7 +40,7 @@
   <section>
     <h4>主要技术</h4>
     <ul>
-      <li>精通 js，熟悉 js 周边技术，热爱开发</li>
+      <li>精通 js，熟悉 js 周边技术及 ts，热爱开发</li>
       <li>深耕 web 全栈开发（vue + nodejs）</li>
       <li>熟悉前端开发工具链（如 webpack）</li>
       <li>熟悉各类小程序开发</li>
@@ -51,6 +51,7 @@
     <ul>
       <li>熟悉 vscode 插件开发</li>
       <li>熟悉 docker、nginx 等工具的日常使用</li>
+      <li>有 Serverless 产品使用经验</li>
       <li>编程基础过得去，Leecode 中等题一般都能做</li>
       <li>英文阅读无障碍，口语欠佳，CET Band6</li>
     </ul>
