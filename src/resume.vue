@@ -62,7 +62,7 @@
       <li>熟悉 linux、docker、nginx 的日常使用</li>
       <li>有 Serverless 产品使用经验</li>
       <li>编程基础过得去，Leecode 中等题一般都能做</li>
-      <li>英文阅读无障碍，口语欠佳，CET Band6</li>
+      <li>英文阅读无障碍，CET Band6</li>
     </ul>
   </section>
   <section>
@@ -95,6 +95,7 @@
         <li>node-sqlite3</li>
         <li>node-postgres</li>
         <li>tedious</li>
+        <li>Redis、MySQL</li>
       </ul>
 
       <p><b>特色</b> 在于使用了极少的依赖。除了必要的各主流数据库的驱动外，使用 Knex.js 统一各数据库的大多数操作、Vue.js 绘制 UI（仅有 Vue.js 的核心库）。引入其他库，将使插件体积极具膨胀，因此绝大多数操作均使用最原始的 API，以保持超轻量级和高运行效率。</p>
@@ -150,7 +151,7 @@
       <ul>
         <li>Vue、ElementUI、ECharts</li>
         <li>百度地图（用于绘制地图类图表）</li>
-        <li>时间久远，忘记用过啥了...</li>
+        <li>MongoDB</li>
       </ul>
     </section>
   </section>
