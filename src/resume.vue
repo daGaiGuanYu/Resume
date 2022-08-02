@@ -11,15 +11,6 @@
       <span>男</span>
     </div>
     <div class="items">
-      <span>身体健康</span>
-      <span>性格开朗</span>
-      <span>容易沟通</span>
-    </div>
-    <div class="items">
-      <span>17621968703</span>
-      <span>17621968703@163.com</span>
-    </div>
-    <div class="items">
       <span>上海</span>
       <span>
         <a href="https://www.zhihu.com/people/wei-82-9">知乎</a>
@@ -27,6 +18,10 @@
       <span>
         <a href="https://github.com/daGaiGuanYu">Github</a>
       </span>
+    </div>
+    <div class="items">
+      <span>17621968703</span>
+      <span>17621968703@163.com</span>
     </div>
     <div class="items">
       <span>期望薪资：20k ~ 23k</span>
@@ -57,7 +52,7 @@
       <li>CSS 预处理：钟爱 Stylus，熟悉 Less 和 Sass</li>
     </ul>
     <p class="comment">
-      此简历使用 Vue 绘制 UI、webpack 打包、stylus 预处理 css，支持电脑、手机、pdf、打印机查看，源代码<a href="https://github.com/daGaiGuanYu/Resume">在这里</a>
+      此份简历模板是专门为这份简历设计的：使用 Vue 绘制 UI、webpack 打包、stylus 处理 css，支持电脑、手机、pdf、打印机查看，源代码<a href="https://github.com/daGaiGuanYu/Resume">在这里</a>
     </p>
   </section>
   <section>
