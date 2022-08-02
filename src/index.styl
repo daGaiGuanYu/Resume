@@ -84,7 +84,9 @@ p.comment
   font-size: .9rem
 
 #page > section
-  padding: 0 1rem
+  padding: 1rem 1rem 2rem
+  &:not(:last-child)
+    border-bottom: 1px solid rgba(0,0,0, .05)
   ul
     marginV(.6rem)
     lineHeight2()
@@ -109,7 +111,6 @@ p.comment
   display: flex
   flex-direction: column
   align-items: center
-  margin-bottom: 1.6rem
   h4
     align-self: flex-start
   img
