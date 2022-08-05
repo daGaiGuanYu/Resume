@@ -1,0 +1,64 @@
+mixin photo
+  img.photo(
+    src = photo
+    title = my + '照片'
+  )
+
+mixin name
+  h1.name !{name}
+
+mixin items(item)
+  .items
+    each i in item.value
+      span !{i}
+
+mixin list(item)
+  ul
+    each i in item.value
+      li !{i}
+
+mixin text(item)
+  p(class = item.comment ? 'comment':'') !{item.value}
+
+mixin header(item)
+  h4 !{item.value}
+
+mixin subHeader(item)
+  h5 !{item.value}
+
+mixin section(item)
+  section
+    each i in item
+      case i.type
+        when 'section'
+          +section(i)
+        when 'header'
+          +header(i)
+        when 'list'
+          +list(i)
+        when 'text'
+          +text(i)
+        when 'photo'
+          +photo(i)
+        when 'name'
+          +name(i)
+        when 'items'
+          +items(i)
+        when 'sub-header'
+          +subHeader(i)
+        when 'sections'
+          each s in i.value
+            +section(s)
+        default
+          div !{i.value}
+
+doctype html
+html(lang="zh")
+  head
+    title= title
+    meta(charset="utf8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-sacle=1, maximum-scale=1")
+    link(rel="stylesheet" href = themeHref)
+  body
+    each section in sections
+      +section(section)

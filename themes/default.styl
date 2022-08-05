@@ -71,7 +71,7 @@ h5 // 项目、公司名
 .items
   lineHeight2()
   text-align: center
-  span
+  & > span
     padding: 0 2rem
     +mobile()
       padding: 0 1rem
@@ -84,10 +84,21 @@ p.comment
   opacity: .8
   font-size: .9rem
 
-#page > section
+body > section
   padding: 1rem 1rem 2rem
   &:not(:last-child)
     border-bottom: 1px solid rgba(0,0,0, .05)
+  
+  img.photo
+    display: block
+    width: 6rem
+    margin: 1rem auto
+  h1.name
+    font-size: 1.2rem
+    font-weight: normal
+    margin: .6rem 0 .8rem
+    text-align: center
+  
   ul
     marginV(.6rem)
     lineHeight2()
@@ -106,18 +117,3 @@ p.comment
     marginH(-.2rem)
   p
     lineHeight1()
-
-/* special */
-.overview
-  display: flex
-  flex-direction: column
-  align-items: center
-  h4
-    align-self: flex-start
-  img
-    width: 6rem
-    margin: 1rem 0
-  .name
-    font-size: 1.2rem
-    font-weight: normal
-    margin: .6rem 0 .8rem

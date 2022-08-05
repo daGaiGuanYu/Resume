@@ -1,0 +1,317 @@
+{
+  "title": "韦现法的简历",
+  "name": "韦现法",
+  "photo": "https://files20220620.oss-cn-shanghai.aliyuncs.com/other/me.jpg",
+  "sections": [
+    [
+      { "type": "photo" },
+      { "type": "name" },
+      {
+        "type": "items",
+        "value": [
+          "1994.09 出生",
+          "2018.07 毕业",
+          "男"
+        ]
+      },
+      {
+        "type": "items",
+        "value": [
+          "上海",
+          "<a href='https://www.zhihu.com/people/wei-82-9'>知乎</a>",
+          "<a href='https://github.com/daGaiGuanYu'>Github</a>"
+        ]
+      },
+      {
+        "type": "items",
+        "value": [
+          "17621968703",
+          "17621968703@163.com"
+        ]
+      },
+      {
+        "type": "items",
+        "value": [
+          "期望薪资：20k ~ 23k"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "期望职位"
+      },
+      {
+        "type": "items",
+        "value": [
+          "web 全栈",
+          "前端开发",
+          "Node.js 后端"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "主要技术"
+      },
+      {
+        "type": "list",
+        "value": [
+          "精通 js，熟悉 js 周边技术及 ts，热爱开发",
+          "web 全栈开发，熟悉 vue + node 组合",
+          "熟悉 HTML5、CSS3、ES6/ES6+",
+          "熟悉微信等各类小程序开发",
+          "熟悉 REST API 规范",
+          "熟悉 HTTP(S)，了解 TCP、UDP",
+          "具备良好的文档阅读、编写能力",
+          "前端：Vue、jQuery、ECharts、Element-UI",
+          "后端：Express、Koa、Sequelize、Knex",
+          "开发工具：npm、webpack、rollup、parcel",
+          "数据库：PGSQL、MongoDB、Redis",
+          "CSS 预处理：钟爱 Stylus，熟悉 Less 和 Sass"
+        ]
+      },
+      {
+        "type": "text",
+        "comment": true,
+        "value": "此份简历模板是专门为这份简历设计的：使用 pug、stylus 制作，支持电脑、手机、pdf、打印机查看，源代码<a href='https://github.com/daGaiGuanYu/_/weixianfa.html'>在这里</a>"
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "其他技能"
+      },
+      {
+        "type": "list",
+        "value": [
+          "熟悉 vscode 插件开发",
+          "熟悉 linux、docker、nginx 的日常使用",
+          "有 Serverless 产品使用经验",
+          "编程基础过得去，Leecode 中等题一般都能做",
+          "英文阅读无障碍，CET Band6"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "项目经历"
+      },
+      {
+        "type": "sections",
+        "value": [
+          [
+            {
+              "type": "sub-header",
+              "value": "PPZ.vscode <span>2022.3 ~ 至今</span>"
+            },
+            {
+              "type": "text",
+              "value": "中文名：<a href='https://github.com/ppz-pro/ppz.vscode'>皮皮仔</a>。是一款 vscode 插件，提供关系型数据库的图形操作界面。"
+            },
+            {
+              "value": "Features："
+            },
+            {
+              "type": "list",
+              "value": [
+                "支持多种数据库",
+                "连接管理",
+                "数据管理",
+                "数据或表结构导出",
+                "SQL 终端",
+                "全功能的数据搜索",
+                "适配任何颜色模式"
+              ]
+            },
+            {
+              "value": "技术点："
+            },
+            {
+              "type": "list",
+              "value": [
+                "平台：VS Code ^1.47.3",
+                "兼容 Windows、MacOS、Linux 操作系统",
+                "Vue",
+                "Knex",
+                "node-mysql2",
+                "node-sqlite3",
+                "node-postgres",
+                "tedious"
+              ]
+            },
+            {
+              "type": "text",
+              "value": "<b>特色</b> 在于使用了极少的依赖。除了必要的各主流数据库的驱动外，使用 Knex.js 统一各数据库的大多数操作、Vue.js 绘制 UI（仅有 Vue.js 的核心库）。引入其他库，将使插件体积极具膨胀，因此绝大多数操作均使用最原始的 API，以保持超轻量级和高运行效率。"
+            },
+            {
+              "type": "text",
+              "value": "<b>难点一</b> 在于统一各主流数据库的操作，目前支持 MySQL、PostgreSQL、MSSQL、Sqlite3 以及兼容以上“标准”的数据库。比如 MariaDB、TiDB、stoneDB 等均属于 MySQL 系，可以使用 MySQL 驱动连接；CockroachDB 等可以使用 PostgreSQL 的驱动；Azure Data 等可以使用 MSSQL 驱动。（OracleDB 的支持正在开发中。）"
+            },
+            {
+              "type": "text",
+              "value": "不同的数据库虽然都支持 SQL 语句，但各家 SQL 语法不一致，可以通过 Knex.js 磨平，这一点非常简单。而除表数据的增删改查以外，其他操作几乎全不一样，需要挨个适配。比如 PostgreSQL 和 MSSQL 的架构是：Server -> Database -> Schema -> Table，而 MySQL 则合并了 Database 与 Schema，Sqlite 则合并了 Server 与 Database 与 Schema（一个 Sqlite3 Server，仅能管理一个 Database、一个 Schema）。"
+            },
+            {
+              "type": "text",
+              "value": "<b>难点二</b> vscode 没有相应成熟的开发框架，在架构方面是从零开始。皮皮仔的最底层是 Model 层，目前用于管理连接数据和版本信息（以便将来做数据迁移）。上层是 Service 层，实现各业务。最上层（并列）分别是 Command（接收用户命令）、Treeview（数据库浏览器）、Webview（主要操作界面），用于接收用户操作。"
+            },
+            {
+              "type": "list",
+              "value": [
+                "阮一峰老师曾在 <a href='https://www.ruanyifeng.com/blog/2022/07/weekly-issue-216.html'>216 期周刊</a>推荐",
+                "<a href='https://github.com/ppz-pro/ppz.vscode'>项目地址</a>",
+                "<a href='https://gitee.com/ppz-pro/ppz.vscode/wikis/pages'>一些截图</a>"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "智能枪弹柜管理系统 <span>2016.6 ~ 至今</span>"
+            },
+            {
+              "type": "text",
+              "value": "全名“比茵沃智能枪弹柜管理系统”，这是一个面向政府的，高定制化的业务系统。主要用于管理警局、法院、押运组织的枪支弹药。"
+            },
+            {
+              "value": "Features：" 
+            },
+            {
+              "type": "list",
+              "value": [
+                "人脸、指纹识别警员身份，匹配枪支弹药",
+                "取、还日志",
+                "本地、远程审批"
+              ]
+            },
+            {
+              "type": "text",
+              "value": "<b>我的主要工作</b> 在于维护系统的“操作端”和“数据服务端”部分，并添加新功能。期间主导过一次前端项目重构，用 Vue.js 替换原来的 jQuery + Bootstrap。"
+            },
+            {
+              "type": "text",
+              "value": "<b>难点</b> 在于实现组织内部非常复杂的取枪流程和特殊的业务场景。比如“胁迫指纹”是指，取枪警员选定特定的手指，当使用这个手指验证身份时，会触发无声报警，报警信息直达各级指定的负责人。验证后，要发出“假的 bug”，但为保障警员生命安全，则要通过其他途径，允许警员把物品交给歹徒。主要用于机构遭遇入侵，被胁迫取枪。业务较为敏感，与公司签有保密协议，不方便多说。"
+            },
+            {
+              "value": "技术点："
+            },
+            {
+              "type": "list",
+              "value": [
+                "Ubuntu18.04、Nginx、Electron",
+                "Vue、Node",
+                "html-pdf、Jade(pug)、Less、Webpack",
+                "Express、Sails、Waterline",
+                "MySQL、Redis"
+              ]
+            },
+            {
+              "type": "text",
+              "value": "柜机已出货 3000+ 台，除遍布整个上海的警局和法院，其他地区也有一定的业务量。"
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "数据可视化平台 <span>2018.10 ~ 2019.11</span>"
+            },
+            {
+              "type": "text",
+              "value": "全名“大蓝洞数据可视化平台”，一个数据可视化项目。简单来说，就是对数据进行筛选、聚合、提取之后，用图表的形式展示。"
+            },
+            {
+              "value": "Features："
+            },
+            {
+              "type": "list",
+              "value": [
+                "支持配置数据源结构",
+                "折线图、雷达图、盒须图、矩形阵图等",
+                "制作数据可视化大屏",
+                "支持手动拖拽、缩放、排列图表"
+              ]
+            },
+            {
+              "type": "text",
+              "value": "我的主要工作在于图表绘制、数据结构适配以及后期整体的维护工作。"
+            },
+            {
+              "value": "技术点："
+            },
+            {
+              "type": "list",
+              "value": [
+                "Vue、ElementUI、ECharts",
+                "百度地图（用于绘制地图类图表）",
+                "MongoDB"
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "工作经历"
+      },
+      {
+        "type": "sections",
+        "value": [
+          [
+            {
+              "type": "sub-header",
+              "value": "上海比茵沃汽车电子有限公司"
+            },
+            {
+              "type": "list",
+              "value": [
+                "2020.9 ~ 2022.8",
+                "职位：全栈开发工程师",
+                "主要项目：智能枪弹柜管理系统"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "大蓝洞（南京）科技有限公司"
+            },
+            {
+              "type": "list",
+              "value": [
+                "2018.7 ~ 2019.11",
+                "职位：前端开发工程师",
+                "主要项目：大蓝洞数据可视化平台"
+              ]
+            },
+            {
+              "type": "text",
+              "value": "除“大蓝洞”数据可视化平台以外，还参与过公司老项目的维护。当时工作内容仅在前端，期间开始学习 Node.js，为全栈开发做准备。"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "教育经历"
+      },
+      {
+        "type": "list",
+        "value": [
+          "辽宁科技大学",
+          "2014.9 ~ 2018.6",
+          "获得两次二等奖学金",
+          "参与学院辩论赛，获得亚军",
+          "期间通过英语四六级",
+          "爱运动，曾参加校运动会 5000 米项目"
+        ]
+      }
+    ]
+  ]
+}

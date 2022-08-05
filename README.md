@@ -1,6 +1,31 @@
 # 我的简历
 点[这里](https://dagaiguanyu.github.io/Resume/dist/)
 
-有空的时候，可以做成简历模板：
+# Features
 + 适配电脑、手机和、打印机、pdf
-+ 打印纸质版时，有些链接需要隐藏，另一些只要还原文字颜色就可以了
++ 颜色模式
++ 扩展主题
++ 一定程度的自定义样式
++ 多语言
+
+# 小 Features
++ 目录、块折叠
++ 模板的模板（原始 json 太复杂）
+
+# 拓展
++ 图形界面生成 json
++ json 模板
+
+# 三大部分
+### github pages
+在线简历，吸收 pr
+
+### 命令行
+通过 npm install -g 安装
+``` bash
+resume 韦现法.json
+```
+
+### 依赖
+通过 npm install 安装  
+用户自己创建仓库，使用自己的 github pages
