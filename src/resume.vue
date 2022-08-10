@@ -51,9 +51,6 @@
       <li>数据库：PGSQL、MongoDB、Redis</li>
       <li>CSS 预处理：钟爱 Stylus，熟悉 Less 和 Sass</li>
     </ul>
-    <p class="comment">
-      此份简历模板是专门为这份简历设计的：使用 Vue 绘制 UI、webpack 打包、stylus 处理 css，支持电脑、手机、pdf、打印机查看，源代码<a href="https://github.com/daGaiGuanYu/Resume">在这里</a>
-    </p>
   </section>
   <section>
     <h4>其他技能</h4>
@@ -95,7 +92,6 @@
         <li>node-sqlite3</li>
         <li>node-postgres</li>
         <li>tedious</li>
-        <li>Redis、MySQL</li>
       </ul>
 
       <p><b>特色</b> 在于使用了极少的依赖。除了必要的各主流数据库的驱动外，使用 Knex.js 统一各数据库的大多数操作、Vue.js 绘制 UI（仅有 Vue.js 的核心库）。引入其他库，将使插件体积极具膨胀，因此绝大多数操作均使用最原始的 API，以保持超轻量级和高运行效率。</p>
@@ -104,7 +100,6 @@
       <p><b>难点二</b> vscode 没有相应成熟的开发框架，在架构方面是从零开始。皮皮仔的最底层是 Model 层，目前用于管理连接数据和版本信息（以便将来做数据迁移）。上层是 Service 层，实现各业务。最上层（并列）分别是 Command（接收用户命令）、Treeview（数据库浏览器）、Webview（主要操作界面），用于接收用户操作。</p>
 
       <ul>
-        <li>目前<a href="https://marketplace.visualstudio.com/">微软商店首页</a>正在推荐</li>
         <li>阮一峰老师曾在 <a href="https://www.ruanyifeng.com/blog/2022/07/weekly-issue-216.html">216 期周刊</a>推荐</li>
         <li><a href="https://github.com/ppz-pro/ppz.vscode">项目地址</a></li>
         <li><a href="https://gitee.com/ppz-pro/ppz.vscode/wikis/pages">一些截图</a></li>
@@ -130,6 +125,7 @@
         <li>Vue、Node</li>
         <li>html-pdf、Jade(pug)、Less、Webpack</li>
         <li>Express、Sails、Waterline</li>
+        <li>Redis、MySQL</li>
       </ul>
       <p>柜机已出货 3000+ 台，除遍布整个上海的警局和法院，其他地区也有一定的业务量。</p>
     </section>
@@ -149,8 +145,8 @@
       <p>我的主要工作在于图表绘制、数据结构适配以及后期整体的维护工作。</p>
       <div>技术点：</div>
       <ul>
-        <li>Vue、ElementUI、ECharts</li>
-        <li>百度地图（用于绘制地图类图表）</li>
+        <li>Vue、ElementUI</li>
+        <li>ECharts、百度地图（用于绘制地图类图表）</li>
         <li>MongoDB</li>
       </ul>
     </section>
@@ -186,8 +182,7 @@
       <li>2014.9 ~ 2018.6</li>
       <li>获得两次二等奖学金</li>
       <li>参与学院辩论赛，获得亚军</li>
-      <li>期间通过英语四级（534分）</li>
-      <li>期间通过英语六级（543分）</li>
+      <li>期间通过英语四、六级</li>
       <li>爱运动，曾参加校运动会 5000 米项目</li>
     </ul>
   </section>
