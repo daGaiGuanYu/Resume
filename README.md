@@ -1,5 +1,5 @@
-# 我的简历
-点[这里](https://dagaiguanyu.github.io/Resume/dist/)
+# 简历
+点[这里](https://dagaiguanyu.github.io/Resume/_/feifei.html)
 
 # Features
 + 适配电脑、手机和、打印机、pdf
@@ -23,7 +23,7 @@
 ### 命令行
 通过 npm install -g 安装
 ``` bash
-resume 韦现法.json
+resume feifei.json
 ```
 
 ### 依赖
