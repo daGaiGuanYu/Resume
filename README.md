@@ -1,5 +1,5 @@
 # 简历
-点[这里](https://dagaiguanyu.github.io/Resume/_/feifei.html)
+点[这里](https://dagaiguanyu.github.io/Resume/dist/resumes/feifei.html)
 
 # Features
 + 适配电脑、手机和、打印机、pdf
