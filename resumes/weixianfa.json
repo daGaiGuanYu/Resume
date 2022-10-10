@@ -18,8 +18,8 @@
         "type": "items",
         "value": [
           "上海",
-          "<a href='https://www.zhihu.com/people/wei-82-9'>知乎</a>",
-          "<a href='https://github.com/daGaiGuanYu'>Github</a>"
+          "<a href='https://github.com/daGaiGuanYu'>Github</a>",
+          "<a href='https://www.zhihu.com/people/wei-82-9'>知乎</a>"
         ]
       },
       {
@@ -71,11 +71,6 @@
           "数据库：PGSQL、MongoDB、Redis",
           "CSS 预处理：钟爱 Stylus，熟悉 Less 和 Sass"
         ]
-      },
-      {
-        "type": "text",
-        "comment": true,
-        "value": "此份简历模板是专门为这份简历设计的：使用 pug、stylus 制作，支持电脑、手机、pdf、打印机查看，源代码<a href='https://github.com/daGaiGuanYu/_/weixianfa.html'>在这里</a>"
       }
     ],
     [
@@ -88,7 +83,7 @@
         "value": [
           "熟悉 vscode 插件开发",
           "熟悉 linux、docker、nginx 的日常使用",
-          "有 Serverless 产品使用经验",
+          "Serverless",
           "编程基础过得去，Leecode 中等题一般都能做",
           "英文阅读无障碍，CET Band6"
         ]
@@ -97,7 +92,7 @@
     [
       {
         "type": "header",
-        "value": "项目经历"
+        "value": "主要项目经历"
       },
       {
         "type": "sections",
@@ -135,6 +130,8 @@
                 "平台：VS Code ^1.47.3",
                 "兼容 Windows、MacOS、Linux 操作系统",
                 "Vue",
+                "Node.js",
+                "esbuild",
                 "Knex",
                 "node-mysql2",
                 "node-sqlite3",
@@ -161,16 +158,15 @@
             {
               "type": "list",
               "value": [
-                "阮一峰老师曾在 <a href='https://www.ruanyifeng.com/blog/2022/07/weekly-issue-216.html'>216 期周刊</a>推荐",
                 "<a href='https://github.com/ppz-pro/ppz.vscode'>项目地址</a>",
-                "<a href='https://gitee.com/ppz-pro/ppz.vscode/wikis/pages'>一些截图</a>"
+                "<a href='https://gitee.com/ppz-pro/ppz.vscode/wikis/Features'>一些截图</a>"
               ]
             }
           ],
           [
             {
               "type": "sub-header",
-              "value": "智能枪弹柜管理系统 <span>2016.6 ~ 至今</span>"
+              "value": "智能枪弹柜管理系统 <span>2020.9 ~ 2022.8</span>"
             },
             {
               "type": "text",
@@ -202,7 +198,8 @@
               "type": "list",
               "value": [
                 "Ubuntu18.04、Nginx、Electron",
-                "Vue、Node",
+                "Vue3、ElementPlus",
+                "Node.js",
                 "html-pdf、Jade(pug)、Less、Webpack",
                 "Express、Sails、Waterline",
                 "MySQL、Redis"
@@ -216,7 +213,28 @@
           [
             {
               "type": "sub-header",
-              "value": "数据可视化平台 <span>2018.10 ~ 2019.11</span>"
+              "value": "Noty.js<span>2022.2 ~ 2022.4</span>"
+            },
+            {
+              "type": "text",
+              "value": "开源、高度自定义的通知组件。从“出入场动画”和“内容”两方面为切入点，提供开发者简洁的接口，来自定制通知组件。"
+            },
+            {
+              "type": "list",
+              "value": [
+                "开源",
+                "无任何依赖",
+                "高度定制化",
+                "主题切换",
+                "<a href='https://ppz-pro.github.io/noty.js/docs/'>文档地址</a>",
+                "<a href='https://www.npmjs.com/package/@ppzp/noty'>npm 链接</a>"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "数据可视化平台 <span>2018.7 ~ 2019.11</span>"
             },
             {
               "type": "text",
@@ -244,7 +262,8 @@
             {
               "type": "list",
               "value": [
-                "Vue、ElementUI、ECharts",
+                "Vue2、vue-router、vuex",
+                "Axios、ElementUI、ECharts、lodash、Moment.js",
                 "百度地图（用于绘制地图类图表）",
                 "MongoDB"
               ]
@@ -287,10 +306,6 @@
                 "职位：前端开发工程师",
                 "主要项目：大蓝洞数据可视化平台"
               ]
-            },
-            {
-              "type": "text",
-              "value": "除“大蓝洞”数据可视化平台以外，还参与过公司老项目的维护。当时工作内容仅在前端，期间开始学习 Node.js，为全栈开发做准备。"
             }
           ]
         ]
