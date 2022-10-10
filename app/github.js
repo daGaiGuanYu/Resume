@@ -4,7 +4,7 @@ const Path = require('path')
 const { SimplePath } = require('./common')
 
 const from = '../resumes'
-const to = '../_'
+const to = '../dist/resumes'
 const sp = new SimplePath(__dirname)
 const tmpl = Pug.compileFile(sp.full('./index.pug'))
 
@@ -34,5 +34,5 @@ function formatData(data) {
   }
 
   data.theme = data.theme || 'default'
-  data.themeHref = '../_themes/' + data.theme + '.css'
+  data.themeHref = '../themes/' + data.theme + '.css'
 }

@@ -4,7 +4,7 @@ const Path = require('path')
 const { SimplePath } = require('./common')
 
 const from = '../themes'
-const to = '../_themes'
+const to = '../dist/themes'
 const sp = new SimplePath(__dirname)
 
 const themes = FS.readdirSync(sp.full(from))
