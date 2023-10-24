@@ -1,0 +1,246 @@
+{
+  "title": "Wei's Resume",
+  "name": "Xianfa Wei",
+  "photo": "https://files20220620.oss-cn-shanghai.aliyuncs.com/other/weixianfa.jpg",
+  "sections": [
+    [
+      { "type": "photo" },
+      { "type": "name" },
+      {
+        "type": "items",
+        "value": [
+          "born in 1994.09",
+          "graduate in 2018.07",
+          "male"
+        ]
+      },
+      {
+        "type": "items",
+        "value": [
+          "Shanghai",
+          "<a href='https://github.com/daGaiGuanYu'>Github</a>",
+          "<a href='https://www.zhihu.com/people/wei-82-9'>知乎</a>"
+        ]
+      },
+      {
+        "type": "items",
+        "value": [
+          "17621968703",
+          "17621968703@163.com"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "Expected Position"
+      },
+      {
+        "type": "items",
+        "value": [
+          "full-stake web development",
+          "front-end web development"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "Technology"
+      },
+      {
+        "type": "list",
+        "value": [
+          "Proficient in js, familiar with JS-related technology, love development",
+          "Proficient in React",
+          "HTML5, CSS3, ES5/ES6/TS",
+          "npm, webpack, esbuild",
+          "Familiar with PWA development",
+          "Familiar with wechat mini program development",
+          "Familiar with REST API specifications",
+          "Familiar with web3 development",
+          "Good ability to read and write documents"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "Other Skills"
+      },
+      {
+        "type": "list",
+        "value": [
+          "Familiar with vscode extension development",
+          "Understand the daily use of nginx, linux, docker",
+          "Serverless",
+          "Chinese / English"
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "Open source"
+      },
+      {
+        "type": "sections",
+        "value": [
+          [
+            {
+              "type": "sub-header",
+              "value": "PPZ.vscode <span>2022.3 ~ 2023.7</span>"
+            },
+            {
+              "type": "text",
+              "value": "Chinese name is <a href='https://github.com/ppz-pro/ppz.vscode'>皮皮仔</a>, A vscode extension, provides GUI for relational database"
+            },
+            {
+              "type": "list",
+              "value": [
+                "Support for multiple databases",
+                "connection management",
+                "data management",
+                "Data and table structure export",
+                "SQL Terminal",
+                "Versatile data search",
+                "Adapts to ANY color mode"
+              ]
+            },
+            {
+              "value": "Technology:"
+            },
+            {
+              "type": "list",
+              "value": [
+                "Platform: VS Code ^1.47.3",
+                "Compatible with Windows、MacOS、Linux",
+                "Vue.js",
+                "esbuild",
+                "Knex"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "My open-source little projects"
+            },
+            {
+              "type": "list",
+              "value": [
+                "<a href='https://ppz-pro.github.io/mess-reader/'>Mess Reader</a> is a epub reader",
+                "<a href='https://ppz-pro.github.io/noty.js/docs/'>Noty.js</a> is a notification lib written in js",
+                "<a href='https://bridge.ppz.xn--6qq986b3xl/'>File Bridge</a> is a \"Bridge\" for file transport",
+                "<a href='https://github.com/ppz-pro'>Others</a>"
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "As Employee"
+      },
+      {
+        "type": "sections",
+        "value": [
+          [
+            {
+              "type": "sub-header",
+              "value": "Phoenix Explorer <span>2022.10 ~ 2023.10</span>"
+            },
+            {
+              "type": "text",
+              "value": "<a href='https://scan.phoenix.global/'>Phoenix Explorer</a> is a block-chain explorer for Phoenix Chain."
+            },
+            {
+              "type": "list",
+              "value": [
+                "Next.js",
+                "webpack",
+                "sass",
+                "web3.js"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "Phoenix Alphanet <span>2022.12 ~ 2023.10</span>"
+            },
+            {
+              "type": "text",
+              "value": "<a href='https://alphanet.phoenix.global/'>Phoenix Alphanet</a> is an application for crypto currency trader. Its main feature is show advice on buy and sell."
+            },
+            {
+              "type": "list",
+              "value": [
+                "React",
+                "esbuild",
+                "stylus",
+                "ethers.js"
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "work experience"
+      },
+      {
+        "type": "sections",
+        "value": [
+          [
+            {
+              "type": "sub-header",
+              "value": "上海比茵沃汽车电子有限公司"
+            },
+            {
+              "type": "list",
+              "value": [
+                "2020.9 ~ 2022.8",
+                "Full-stake web development"
+              ]
+            }
+          ],
+          [
+            {
+              "type": "sub-header",
+              "value": "大蓝洞（南京）科技有限公司"
+            },
+            {
+              "type": "list",
+              "value": [
+                "2018.7 ~ 2019.11",
+                "Front-end web development"
+              ]
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type": "header",
+        "value": "Education Experience"
+      },
+      {
+        "type": "list",
+        "value": [
+          "University of Science and Technology Liaoning",
+          "2014.9 ~ 2018.6",
+          "Won two second-class scholarships",
+          "Participated in the college debate competition and won the second place",
+          "Passed CET-4 and CET-6 during this period (CET: College English Test)",
+          "Love sports, participated in the school sports meeting 5000 meters"
+        ]
+      }
+    ]
+  ]
+}
